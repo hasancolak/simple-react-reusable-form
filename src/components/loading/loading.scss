@@ -1,0 +1,32 @@
+.loading-dual {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.loading-dual:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #455EB5;
+    border-color: #455EB5 transparent #455EB5 transparent;
+    animation: loading-dual 1.2s linear infinite;
+}
+
+@keyframes loading-dual {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,400,700);
+
+//variables;
+$font-family: Roboto;
+$font-size : 14px;
+$line-height: 1;
+
+body {
+    font-family: $font-family;
+    color: #333;
+    font-size: $font-size;
+    line-height: $line-height;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}

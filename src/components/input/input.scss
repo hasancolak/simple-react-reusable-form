@@ -1,0 +1,32 @@
+.form-group{
+    display: flex;
+    margin: 0 0 40px 0;
+    
+    label {
+        flex: 0%;
+    }
+    input,
+    textarea {
+        flex: 70%;
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        font-family:Roboto;
+    }
+    textarea{}
+}
+
+@media screen and (max-width:600px) {
+    .form-group {
+        display: block;
+        label {
+            display: block;
+            flex: none;
+            margin-bottom: 10px;
+        }
+        input {
+            flex: none;
+        }
+
+    }
+}
